@@ -1,0 +1,39 @@
+$primary-color:black;
+$lien-color:#ffa500 ;
+$liste-color:white;
+$text-color: #ffa500;
+ 
+body{
+    background: $primary-color;
+}
+h1{
+    color: $text-color;
+}
+p{
+    color: $liste-color;
+}
+section{
+    background-color: $text-color;
+}
+.section1{
+    background: $primary-color;
+}
+.titre ul li{
+    background: $text-color;
+}
+.sous-menu{
+    color: $liste-color;
+}
+.prix{
+    color: $text-color;
+    background: $primary-color;
+}
+h4{
+    color: $liste-color;
+}
+a{
+    color: $text-color;
+}
+.contact li{
+    color: $liste-color;
+}

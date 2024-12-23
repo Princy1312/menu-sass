@@ -1,0 +1,13 @@
+@mixin responsive ($width){
+    @media screen  and (max-width: $width){
+        @if $width == 400px {
+            @content;
+        }
+        @if $width == 100px{
+            @content;
+        } 
+        
+    }
+   
+    
+}
